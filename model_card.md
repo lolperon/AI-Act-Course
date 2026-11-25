@@ -19,7 +19,8 @@ Model type : RandomForestClassifier (scikit-learn)
 License : MIT
 
 ## Intended Use
-<!-- Complete after section B.2 -->
+Intended Use Cases : ce modèle permet d'identifier l'espèce d'un iris, à des fins de recherches scientifiques, pour des docteurs en botanique
+Out-of-scope Use : ce modèle n'est pas destiné à un usage grand public
 
 ## Factors (Facteurs)
 <!-- Complete after section B.3 -->
