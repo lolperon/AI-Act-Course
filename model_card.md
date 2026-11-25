@@ -90,6 +90,6 @@ Données peu représentatives du monde réel → recommander des tests sur des d
 Pas de validation croisée → recommander une évaluation plus robuste avant tout déploiement
 
 ## Reproductibility
-    Git commit (git_sha): <votre_sha>
+    Git commit (git_sha): ad7c126cac36415022d76915d31171e62c13045e
     MLflow run_id: N/A (non utilisé dans ce chapitre)
     Dataset hash: N/A (non utilisé dans ce chapitre)
