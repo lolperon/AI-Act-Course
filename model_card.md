@@ -68,13 +68,26 @@ Méthode de séparation : train/test split (précisez le ratio et le random stat
 Prétraitements : aucun prétraitement spécifique appliqué
 
 ## Quantitative Analyses (Analyses quantitatives)
-<!-- Complete after section B.7 -->
+Les performances ont été évaluées séparément pour chacune des trois classes du jeu de données Iris :
+
+Classification Report :
+              precision    recall  f1-score   support
+
+      setosa       1.00      1.00      1.00        10
+  versicolor       1.00      1.00      1.00         9
+   virginica       1.00      1.00      1.00        11
+   
+Les performances sont homogènes entre les trois classes : le modèle obtient une précision, un rappel et un F1-score de 1.00 pour chacune d'elles. Aucune classe n'apparaît donc comme moins bien classifiée sur le jeu de test.
+Ces résultats doivent toutefois être interprétés avec prudence, car ils sont obtenus sur un jeu de test limité à 30 exemples.
 
 ## Ethical Considerations (Considérations éthiques)
-<!-- Complete after section B.8 -->
+Risques d'usage : NA
+Biais potentiels : NA
 
 ## Caveats and Recommendations (Limites et recommandations)
-<!-- Complete after section B.9 -->
+Dataset très petit (150 observations) → recommander de ne pas généraliser sans validation supplémentaire
+Données peu représentatives du monde réel → recommander des tests sur des données collectées dans des conditions variées
+Pas de validation croisée → recommander une évaluation plus robuste avant tout déploiement
 
 ## Reproductibility
 <!-- Complete after section B.10 -->
