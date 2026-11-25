@@ -11,7 +11,12 @@ pipeline_tag: tabular-classification
 ---
 
 ## Model Details
-<!-- Complete after section B.1 -->
+Model name : Iris Liora
+Author : laurent Peron
+Date : 25/11/2026
+Version : 1.0
+Model type : RandomForestClassifier (scikit-learn)
+License : MIT
 
 ## Intended Use
 <!-- Complete after section B.2 -->
